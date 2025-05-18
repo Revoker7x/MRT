@@ -46,6 +46,10 @@ module.db.tableFood = not ExRT.isClassic and {
 	[87558]=true,	[87559]=true,	[87697]=true,	[87560]=true,	[100368]=true,	[100373]=true,	[100375]=true,	[100377]=true,	[87565]=true,	
 	[87546]=true,	[87547]=true,	[87545]=true,
 
+
+	--SOD
+	[470367]=true,	[1225782]=true,	[125778]=true,	[125779]=true,	[125780]=true,
+
 }
 module.db.StaminaFood = {[201638]=true,[259457]=true,[288075]=true,[288074]=true,[297119]=true,[297040]=true,}
 
@@ -306,7 +310,7 @@ if not ExRT.isClassic and UnitLevel'player' > 50 then
 	[308488]=30,	[308506]=30,	[308434]=30,	[308514]=30,	[327708]=20,	[327706]=20,	[327709]=20,	[308525]=30,	[327707]=30,	[308637]=30,
 	[308474]=18,	[308504]=18,	[308430]=18,	[308509]=18,	[327704]=18,	[327701]=18,	[327705]=18,	[327702]=18,	[308525]=18,
 									--[341449]=20,
-
+	
 	--Haste		Mastery		Crit		Versa		Int		Str 		Agi		Stam		Stam		Special
 	[382145]=70,	[382150]=70,	[382146]=70,	[382149]=70,	[396092]=90,					[382246]=70,
 															[382247]=90,
@@ -321,7 +325,9 @@ if not ExRT.isClassic and UnitLevel'player' > 50 then
 	--HasteCrit	HasteVers	VersMastery	StamStr		StamAgi		StamInt		HasteMastery	CritVers	CritMastery
 	[382152]=90,	[382153]=90,	[382157]=90,	[382230]=70,	[382231]=70,	[382232]=70,	[382154]=90,	[382155]=90,	[382156]=90,
 							[382234]=90,	[382235]=90,	[382236]=90,
-	}
+	
+	
+						}
 	module.db.tableFood_headers = {0,70,90}
 
 	module.db.tableFlask = {
@@ -388,6 +394,15 @@ else
 		{"armor","Armor",135926,{[588]=1,[7128]=2,[602]=3,[1006]=4,[10951]=5,[10952]=6,}},	--Inner Fire
 		{"shadow","Shadow",136121,{[10958]=3,[976]=1,[10957]=2,[27683]=3,}},	--Shadow Protection
 		{"stamina","Stamina",135987,{[1243]=1,[21562]=5,[21564]=6,[1244]=2,[1245]=3,[2791]=4,[10937]=5,[10938]=6,}},	--Power Word: Fortitude
+
+		{"onyxia","Onyxia",135987,		{[461475]=5,[473387]=9,[1218121]=9,[22888]=10,[355363]=10,}},	--Dragon
+		{"rend","Rend",135987,			{[473441]=9,[16609]=10,}},	--Rend
+		{"darkmoon","DMF",135987,		{[473450]=9,[23768]=10,}},	--darkmoon
+		{"zulg","ZG",135987,			{[473476]=9,[24425]=10,}},	--Zulg
+		{"flower","Flower",135987,		{[473399]=9,[15366]=10,}},	--Flower
+		{"dmstam","DM-Stam",135987,		{[473403]=9,[22818]=10,}},	--Dire maul
+		{"dmspell","DM-Spell",135987,	{[473403]=9,[22820]=10,}},	--Dire maul
+		{"dmattack","DM-AP",135987,		{[473403]=9,[22817]=10,}},	--Dire maul
 	}
 end
 if ExRT.isCata then
