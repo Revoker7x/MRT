@@ -48,7 +48,7 @@ module.db.tableFood = not ExRT.isClassic and {
 
 
 	--SOD
-	[470367]=true,	[1225782]=true,	[125778]=true,	[125779]=true,	[125780]=true,
+	[470367]=true,	[1225782]=true,[1225780]=true, [1225778]=true, [1225779]=true,
 
 }
 module.db.StaminaFood = {[201638]=true,[259457]=true,[288075]=true,[288074]=true,[297119]=true,[297040]=true,}
